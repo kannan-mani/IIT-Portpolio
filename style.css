@@ -1,0 +1,107 @@
+body{
+     font-family: Arial, sans-serif; /* This sets the font for the entire document */
+    font-size: 16px; /* This sets the base font size */
+    line-height: 1.5; /* This sets the line height for better readability */
+    color: black; /* This sets the text color */
+    background-color: #f5f5f5; /* This sets the background color */
+}
+
+h1{
+    color: blue; /* This sets the color of h1 elements */
+    font-size: 40px; /* This sets the font size of h1 elements */
+}
+
+h2{
+    color: #333; /* This sets the color of h2 elements */
+    font-size: 36px; /* This sets the font size of h2 elements */
+}
+
+.btnSubmit{
+    color: white; /* This sets the text color of buttons */
+    background-color: blue; /* This sets the background color of buttons */
+    border: none; /* This removes the border from buttons */
+    padding: 10px 20px; /* This adds padding inside buttons */
+    border-radius: 5px; /* This rounds the corners of buttons */
+    cursor: pointer; /* This changes the cursor to a pointer when hovering over buttons */
+}
+
+.btn:hover{
+    background-color: darkblue; /* This changes the background color of buttons when hovered */
+}
+
+.card{
+    width: 180px; /* This sets the width of cards to 180px */
+    padding: 16px; /* This adds padding inside cards */
+    margin: 12px; /* This adds margin outside cards */
+    border: 1px solid #333; /* This adds a border around cards */
+}
+
+* {
+    box-sizing: border-box; /* This makes sure that padding and border are included in the total width and height of elements */
+}
+
+.navbar {
+    display: flex; /* This makes the navbar a flex container */
+    justify-content: space-between; /* This distributes space between items */
+    align-items: center; /* This aligns items to the center of the cross axis */
+    padding: 10px 20px; /* This adds padding inside the navbar */
+    background-color: #111; /* This sets the background color of the navbar */
+    color: white; /* This sets the text color of the navbar */
+}
+
+.nav-links { /* This targets the container for the navigation links */
+    display: flex; /* This makes the nav-links a flex container */
+    gap: 20px; /* This adds space between the links */
+}
+
+.nav-links a { /* This targets the anchor tags inside nav-links */
+    color: white; /* This sets the text color of the links */
+    text-decoration: none; /* This removes the underline from links */
+}
+
+#about{
+    padding: 20px; /* This adds padding inside the about section */
+    text-align: center; /* This centers the text inside the about section */
+    background-color: #e0e0e0; /* This sets the background color of the about section */
+}
+
+#about a{
+    max-width:  600px; /* This sets the maximum width of the link inside the about section */
+    margin: 0 auto 20px; /* This centers the link inside the about section */
+}
+
+section#projects{
+    padding: 20px 10px; /* This adds padding inside the projects section */
+}
+
+
+.projects-container {
+    display: flex; /* This makes the container a flex container */
+   gap: 20px; /* This adds space between the cards */
+}
+
+.card {
+    flex: 1; /* This makes the cards take equal space */
+    min-width: 200px; /* This sets a minimum width for the cards */
+    max-width: 300px; /* This sets a maximum width for the cards */
+    padding: 16px; /* This adds padding inside the cards */
+    margin: 12px; /* This adds margin outside the cards */
+    border: 1px solid #333; /* This adds a border around the cards */
+    background-color: white; /* This sets the background color of the cards */
+    border-radius: 8px; /* This rounds the corners of the cards */
+}
+
+form{
+    max-width: 600px; /* This sets the maximum width of the form */
+    display: flex; /* This makes the form a flex container */
+    flex-direction: column; /* This stacks the form elements vertically */
+    gap: 10px; /* This adds space between the form elements */
+
+}
+
+input{
+    padding: 10px; /* This adds padding inside the input fields */
+    border: 1px solid #ccc; /* This adds a border around the input fields */
+    border-radius: 4px; /* This rounds the corners of the input fields */
+    font-size: 16px;;
+}
