@@ -32,7 +32,7 @@ const nameValue = nameInput.value; // it will read the value of the input elemen
 console.log(nameValue); // it will log the value of the input element with the id "name"
 
 
-//Event Listeners
+// Event Listeners
 // it is used to add an event listener to an element. it can be used to listen for events such as click, mouseover, keydown, etc.
 const name1 = document.querySelector("#name");
 name1.addEventListener("input", () => {

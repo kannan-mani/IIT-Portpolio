@@ -18,7 +18,7 @@ h2{
 
 .btnSubmit{
     color: white; /* This sets the text color of buttons */
-    background-color: blue; /* This sets the background color of buttons */
+    background-color: rgb(76, 76, 143); /* This sets the background color of buttons */
     border: none; /* This removes the border from buttons */
     padding: 10px 20px; /* This adds padding inside buttons */
     border-radius: 5px; /* This rounds the corners of buttons */
